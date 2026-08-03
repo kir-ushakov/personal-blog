@@ -1,6 +1,6 @@
 ---
-title: 'The New AI Black Box'
-description: 'Why engineers should validate AI-generated components through contracts, tests, security, and performance instead of reverse-engineering every line.'
+title: 'The New AI Black Box: Why Your Team Is Still Too Slow'
+description: 'Why AI-generated code should be treated as a black box—and validated through engineering rather than reverse-engineering.'
 pubDate: 2026-08-01
 author: 'Kirill Ushakov'
 tags:
