@@ -4,10 +4,18 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import { defineConfig, fontProviders } from 'astro/config';
 
+const deployTarget = process.env.DEPLOY_TARGET ?? 'github-pages';
+const isMainSite = deployTarget === 'main-site';
+
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://kir-ushakov.github.io',
-	base: '/personal-blog',
+	output: 'static',
+	site: isMainSite
+		? 'https://kirushakov.com'
+		: 'https://kir-ushakov.github.io',
+	base: isMainSite
+		? '/articles'
+		: '/personal-blog',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{

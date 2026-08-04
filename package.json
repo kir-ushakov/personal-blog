@@ -8,6 +8,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "build:pages": "cross-env DEPLOY_TARGET=github-pages astro build",
+    "build:main-site": "cross-env DEPLOY_TARGET=main-site astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -17,5 +19,8 @@
     "@astrojs/sitemap": "^3.7.3",
     "astro": "^7.1.6",
     "sharp": "^0.35.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
