@@ -14,7 +14,7 @@ export default defineConfig({
 		? 'https://kirushakov.com'
 		: 'https://kir-ushakov.github.io',
 	base: isMainSite
-		? '/articles'
+		? '/blog'
 		: '/personal-blog',
 	integrations: [mdx(), sitemap()],
 	fonts: [
