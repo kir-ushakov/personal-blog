@@ -9,12 +9,12 @@ tags:
   - Architecture
   - AI-Assisted Development
 draft: false
-heroImage: '../../assets/black-box-header.jpg'
+heroImage: '../../assets/pics/black-box/_header.jpg'
 ---
 
 ## The Black Box Principle
 
-![A black box with input and output arrows; a developer studies an interface book instead of looking inside](../../assets/black-box.png)
+![A black box with input and output arrows; a developer studies an interface book instead of looking inside](../../assets/pics/black-box/black-box.png)
 
 One of the oldest and most important ideas in software engineering is the concept of a black box. A black box is a component whose internal implementation is hidden behind a well-defined interface. As developers, we don't need to understand every line of code inside it. We only need to know what goes in, what comes out, and whether it satisfies its contract in terms of expected behavior, performance, and reliability.
 
@@ -74,7 +74,7 @@ It defined clear input and output interfaces, extracted the graph model into its
 
 In just a few minutes, what had started as a standalone algorithm had become a well-structured, self-contained module that matched the architecture of the project.
 
-![An algorithm black box tested for performance, security, and functionality, connected through an interface to a larger system](../../assets/performance-security-functionality.png)
+![An algorithm black box tested for performance, security, and functionality, connected through an interface to a larger system](../../assets/pics/black-box/performance-security-functionality.png)
 
 ## Building Confidence Without Reading the Code
 
